@@ -221,7 +221,7 @@
                 const data = Object.fromEntries(new FormData(e.target));
 
                 try {
-                    const response = await fetch('https://saimgujjar-n8n.hf.space/webhook-test/booking-form', {
+                    const response = await fetch('https://saimgujjar-n8n.hf.space/webhook/booking-form', {
                         method: 'POST',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify(data)
@@ -259,7 +259,7 @@
             msgBox.scrollTop = msgBox.scrollHeight;
 
             try {
-                const res = await fetch('https://saimgujjar-n8n.hf.space/webhook-test/booking-form', {
+                const res = await fetch('https://saimgujjar-n8n.hf.space/webhook/booking-form', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({ message: text })
