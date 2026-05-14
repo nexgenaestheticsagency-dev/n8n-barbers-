@@ -1,0 +1,15 @@
+/* Yahan se poori website control hogi */
+:root {
+    --primary-gold: #fbbf24; /* Shahcut ka golden rang */
+    --bg-dark: #09090b;      /* Background ka kaala rang */
+    --text-light: #f4f4f5;   /* Likhai ka rang */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.text-amber-400 { color: var(--primary-gold) !important; }
+.bg-amber-400 { background-color: var(--primary-gold) !important; }
